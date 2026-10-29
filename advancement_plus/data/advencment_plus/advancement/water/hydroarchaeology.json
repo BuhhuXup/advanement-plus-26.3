@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_sand"
+    },
+    "title": "Гидроархеология",
+    "description": "Выкопайте что-нибудь из подозрительного гравия и подозрительного песка в океанических руинах",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:water/go_to_ocean_ruin",
+  "criteria": {
+    "warm": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "player": {},
+        "loot_table": "minecraft:archaeology/ocean_ruin_warm"
+      }
+    },
+    "cold": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "player": {},
+        "loot_table": "minecraft:archaeology/ocean_ruin_cold"
+      }
+    }
+  }
+}

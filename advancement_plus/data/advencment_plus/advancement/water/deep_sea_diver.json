@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_torch"
+    },
+    "title": "Как рыба удильщик",
+    "description": "Почувствуйте себя глубоководным дайвером, поплавав на минимально возможной высоте",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:water/craft_boat",
+  "criteria": {
+    "qwe": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": -63,
+                "max": -60
+              }
+            },
+            "dimension": "minecraft:overworld",
+            "fluid": {
+              "fluids": "#minecraft:water"
+            }
+          }
+        }
+      }
+    }
+  }
+}

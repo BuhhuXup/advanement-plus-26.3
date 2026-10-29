@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nautilus_spawn_egg"
+    },
+    "title": "Наутилус помпилиус",
+    "description": "Оседлайте наутилуса",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/fishy_business",
+  "criteria": {
+    "ride_a_nautilus": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "minecraft:vehicle": {
+            "minecraft:entity_type": [
+              "minecraft:nautilus",
+              "minecraft:zombie_nautilus"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

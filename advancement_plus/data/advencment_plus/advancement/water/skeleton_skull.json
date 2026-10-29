@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": "Мистер Дудец",
+    "description": "Выбийте череп скелета при помощи взрыва заряженного крипера",
+    "frame": "challenge"
+  },
+  "parent": "advencment_plus:water/creeper_discharget",
+  "criteria": {
+    "qwe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biomes": "minecraft:deep_dark"
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "minecraft:skeleton_skull"
+          }
+        ]
+      }
+    }
+  }
+}

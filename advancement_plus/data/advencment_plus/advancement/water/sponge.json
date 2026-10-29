@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sponge"
+    },
+    "title": "Кто проживает на дне океана?",
+    "description": "Найдите губку в морском монументе",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:water/kill_guard",
+  "criteria": {
+    "wqe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {},
+        "items": [
+          {
+            "items": [
+              "minecraft:sponge",
+              "minecraft:wet_sponge"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:command_block"
+    },
+    "title": "По по по...",
+    "description": "Круто выдать себе ачивки командой...",
+    "background": "minecraft:gui/sprites/pause_menu/bug",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cheater": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

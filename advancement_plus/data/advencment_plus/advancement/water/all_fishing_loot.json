@@ -1,0 +1,258 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ink_sac"
+    },
+    "title": "Рыбный бизнес",
+    "description": "Поймайте на удочку все, что возможно выловить из водоёма",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:water/ride_a_nautilus",
+  "criteria": {
+    "cod": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:cod"
+          ]
+        }
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:salmon"
+          ]
+        }
+      }
+    },
+    "tropicalFish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:tropical_fish"
+          ]
+        }
+      }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:pufferfish"
+          ]
+        }
+      }
+    },
+    "bow": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:bow"
+          ]
+        }
+      }
+    },
+    "enchantedBook": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ]
+        }
+      }
+    },
+    "fishingRoad": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:fishing_rod"
+          ]
+        }
+      }
+    },
+    "nameTag": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ]
+        }
+      }
+    },
+    "nautilysShell": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:nautilus_shell"
+          ]
+        }
+      }
+    },
+    "saddle": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:saddle"
+          ]
+        }
+      }
+    },
+    "lilyPad": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:lily_pad"
+          ]
+        }
+      }
+    },
+    "bowl": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:bowl"
+          ]
+        }
+      }
+    },
+    "leather": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:leather"
+          ]
+        }
+      }
+    },
+    "leatherBoots": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:leather_boots"
+          ]
+        }
+      }
+    },
+    "rottenFlesh": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:rotten_flesh"
+          ]
+        }
+      }
+    },
+    "stick": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:stick"
+          ]
+        }
+      }
+    },
+    "string": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:string"
+          ]
+        }
+      }
+    },
+    "watherBottle": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ]
+        }
+      }
+    },
+    "bone": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:bone"
+          ]
+        }
+      }
+    },
+    "inkSac": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:ink_sac"
+          ]
+        }
+      }
+    },
+    "tripwireHook": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:tripwire_hook"
+          ]
+        }
+      }
+    },
+    "bamboo": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:bamboo"
+          ]
+        }
+      }
+    }
+  }
+}

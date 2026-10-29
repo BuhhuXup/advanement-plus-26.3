@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_coral"
+    },
+    "title": "Как камень, но живое",
+    "description": "Прикоснитесь к кораллу из кораллового рифа и поймите, что он живой",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:water/craft_boat_which_boat",
+  "criteria": {
+    "find_coral_rif": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:stepping_on": {
+            "biomes": "minecraft:warm_ocean",
+            "block": {
+              "blocks": [
+                "minecraft:brain_coral_block",
+                "minecraft:bubble_coral_block",
+                "minecraft:fire_coral_block",
+                "minecraft:horn_coral_block",
+                "minecraft:tube_coral_block"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

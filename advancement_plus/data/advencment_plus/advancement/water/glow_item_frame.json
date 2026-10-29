@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_item_frame"
+    },
+    "title": "§4R§2G§1B§r подсветка",
+    "description": "Заставьте рамку светиться, используя Светящийся чернильный мешок",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/make_a_sign_glow",
+  "criteria": {
+    "qwe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glow_item_frame"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

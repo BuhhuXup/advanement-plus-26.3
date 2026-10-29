@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_chest_boat"
+    },
+    "title": "Отсек для предметов",
+    "description": "Соедините лодку с сундуком, что бы получить... лодку с сундуком",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:water/craft_boat",
+  "criteria": {
+    "wqe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {},
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_chest_boat",
+              "minecraft:birch_chest_boat",
+              "minecraft:cherry_chest_boat",
+              "minecraft:dark_oak_chest_boat",
+              "minecraft:jungle_chest_boat",
+              "minecraft:mangrove_chest_boat",
+              "minecraft:oak_chest_boat",
+              "minecraft:spruce_chest_boat",
+              "minecraft:bamboo_chest_raft",
+              "minecraft:pale_oak_chest_boat"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

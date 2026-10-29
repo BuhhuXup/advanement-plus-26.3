@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+    "title": "Палундра!",
+    "description": "Создайте лодку",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:water/root",
+  "criteria": {
+    "wqe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {},
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_boat",
+              "minecraft:birch_boat",
+              "minecraft:cherry_boat",
+              "minecraft:dark_oak_boat",
+              "minecraft:jungle_boat",
+              "minecraft:mangrove_boat",
+              "minecraft:oak_boat",
+              "minecraft:spruce_boat",
+              "minecraft:bamboo_raft",
+              "minecraft:pale_oak_boat"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
