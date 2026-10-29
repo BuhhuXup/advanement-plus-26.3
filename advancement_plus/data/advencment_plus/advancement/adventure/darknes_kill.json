@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": "Быть тише, тише, ТИШЕ!",
+    "description": "Нашумите в тёмных глубинах или древнем городе, что бы на вас оказался эффект тьмы",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:adventure/ancient_city",
+  "criteria": {
+    "qew": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:darkness": {}
+        }
+      }
+    }
+  }
+}

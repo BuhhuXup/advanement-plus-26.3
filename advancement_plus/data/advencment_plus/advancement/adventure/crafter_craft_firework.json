@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": "3 недели работы",
+    "description": "Находитесь рядом со сборщиком, который соберет фейерверк",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/crafters_crafting_crafters",
+  "criteria": {
+    "qwe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:firework_rocket"
+      }
+    }
+  }
+}

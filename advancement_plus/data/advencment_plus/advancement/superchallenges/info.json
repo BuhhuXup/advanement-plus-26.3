@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chain_command_block"
+    },
+    "title": "§kнайди посхалку с гойдой§r",
+    "description": "§kТы знал, что у меня есть другие датапаки?§r",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "advencment_plus:superchallenges/100_percent",
+  "criteria": {
+    "hello_dataminer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/root": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

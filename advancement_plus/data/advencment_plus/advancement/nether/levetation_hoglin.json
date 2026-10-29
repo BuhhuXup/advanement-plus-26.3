@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_fungus"
+    },
+    "title": "А свиньи все таки полетят!",
+    "description": "Сведите двух хоглинов с эффектом левитации",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:nether/shroomlight",
+  "criteria": {
+    "levetation_hoglins": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "minecraft:entity_type": "minecraft:hoglin",
+          "minecraft:effects": {
+            "minecraft:levitation": {}
+          }
+        },
+        "partner": {
+          "minecraft:entity_type": "minecraft:hoglin",
+          "minecraft:effects": {
+            "minecraft:levitation": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

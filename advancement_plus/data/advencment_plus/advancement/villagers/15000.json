@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:villager_spawn_egg"
+    },
+    "title": "Оптовый поставщик",
+    "description": "Проведите 15000 сделок с крестьянами",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:villagers/trading_all_biomes",
+  "criteria": {
+    "traiding": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "traded_with_villager",
+                "value": {
+                  "min": 15000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  }
+}

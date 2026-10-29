@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head"
+    },
+    "title": "IDDQD",
+    "description": "Не умирайте в течении трех реальных суток",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:story/three_days_on_the_game",
+  "criteria": {
+    "no_dead_three_days": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:time_since_death",
+                "value": {
+                  "min": 5184000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 300
+  }
+}

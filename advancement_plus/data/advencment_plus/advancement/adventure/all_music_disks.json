@@ -1,0 +1,236 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_bounce"
+    },
+    "title": "Полный альбом",
+    "description": "Соберите все пластинки доступные в игре",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:adventure/collect_c418_md",
+  "criteria": {
+    "5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_5"
+          }
+        ]
+      }
+    },
+    "11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11"
+          }
+        ]
+      }
+    },
+    "13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_13"
+          }
+        ]
+      }
+    },
+    "cat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_cat"
+          }
+        ]
+      }
+    },
+    "blocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_blocks"
+          }
+        ]
+      }
+    },
+    "chirp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_chirp"
+          }
+        ]
+      }
+    },
+    "mall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_mall"
+          }
+        ]
+      }
+    },
+    "creator_music_box": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_creator_music_box"
+          }
+        ]
+      }
+    },
+    "relic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_relic"
+          }
+        ]
+      }
+    },
+    "tears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_tears"
+          }
+        ]
+      }
+    },
+    "pigstep": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_pigstep"
+          }
+        ]
+      }
+    },
+    "bounce": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_bounce"
+          }
+        ]
+      }
+    },
+    "otherside": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_otherside"
+          }
+        ]
+      }
+    },
+    "creator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_creator"
+          }
+        ]
+      }
+    },
+    "stal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_stal"
+          }
+        ]
+      }
+    },
+    "mellohi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_mellohi"
+          }
+        ]
+      }
+    },
+    "far": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_far"
+          }
+        ]
+      }
+    },
+    "wait": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_wait"
+          }
+        ]
+      }
+    },
+    "lava_chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_lava_chicken"
+          }
+        ]
+      }
+    },
+    "strad": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_strad"
+          }
+        ]
+      }
+    },
+    "ward": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_ward"
+          }
+        ]
+      }
+    },
+    "precipice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_precipice"
+          }
+        ]
+      }
+    }
+  }
+}

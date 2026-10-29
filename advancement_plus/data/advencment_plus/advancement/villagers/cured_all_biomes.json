@@ -1,0 +1,75 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": "Гринландия открывает порты",
+    "description": "Исцелите зомби-крестьянинов всех биомов",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/cure_zombie_villager",
+  "criteria": {
+    "desert": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "zombie": {
+          "nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+        }
+      }
+    },
+    "Savanna": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "zombie": {
+          "nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
+        }
+      }
+    },
+    "taiga": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:taiga\"}}"
+        }
+      }
+    },
+    "snow": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "zombie": {
+          "nbt": "{VillagerData:{type:\"minecraft:snow\"}}"
+        }
+      }
+    },
+    "swamp": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "zombie": {
+          "nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+        }
+      }
+    },
+    "jungle": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "zombie": {
+          "nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"
+        }
+      }
+    },
+    "plains": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "zombie": {
+          "nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 400
+  }
+}

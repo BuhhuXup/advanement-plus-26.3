@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": "Сумасшедший Иван",
+    "description": "Подлетите на 700 блоков... не используя элитры и ездовых мобов (таких как вагонетки, счастливые гасты и свиньи)!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:superchallenges/more_xp",
+  "criteria": {
+    "y_700": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

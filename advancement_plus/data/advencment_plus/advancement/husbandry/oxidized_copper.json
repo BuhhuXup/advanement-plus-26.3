@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper"
+    },
+    "title": "Cu₂O",
+    "description": "Доведите медный блок до последней стадии окисления",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/wax_off",
+  "criteria": {
+    "qwe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oxidized_copper",
+              "minecraft:oxidized_cut_copper",
+              "minecraft:oxidized_cut_copper_slab",
+              "minecraft:oxidized_cut_copper_stairs",
+              "minecraft:waxed_oxidized_copper",
+              "minecraft:waxed_oxidized_cut_copper",
+              "minecraft:waxed_oxidized_cut_copper_slab",
+              "minecraft:waxed_oxidized_cut_copper_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

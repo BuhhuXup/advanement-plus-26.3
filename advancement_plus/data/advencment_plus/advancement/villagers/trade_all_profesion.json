@@ -1,0 +1,123 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:composter"
+    },
+    "title": "Жителевич меняет профессию",
+    "description": "Проведите сделку с крестьянами мастерами всех профессий",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:villagers/master_trade",
+  "criteria": {
+    "Armorer": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:nbt": "{VillagerData:{profession:\"minecraft:armorer\", level:5}}"
+        }
+      }
+    },
+    "Butcher": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:nbt": "{VillagerData:{profession:\"minecraft:butcher\", level:5}}"
+        }
+      }
+    },
+    "Cartographer": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:nbt": "{VillagerData:{profession:\"minecraft:cartographer\", level:5}}"
+        }
+      }
+    },
+    "Cleric": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:nbt": "{VillagerData:{profession:\"minecraft:cleric\", level:5}}"
+        }
+      }
+    },
+    "Farmer": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:nbt": "{VillagerData:{profession:\"minecraft:farmer\", level:5}}"
+        }
+      }
+    },
+    "Fisherman": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:nbt": "{VillagerData:{profession:\"minecraft:fisherman\", level:5}}"
+        }
+      }
+    },
+    "Fletcher": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:nbt": "{VillagerData:{profession:\"minecraft:fletcher\", level:5}}"
+        }
+      }
+    },
+    "Leatherworker": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:nbt": "{VillagerData:{profession:\"minecraft:leatherworker\", level:5}}"
+        }
+      }
+    },
+    "Librarian": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:nbt": "{VillagerData:{profession:\"minecraft:librarian\", level:5}}"
+        }
+      }
+    },
+    "mason‌": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:nbt": "{VillagerData:{profession:\"minecraft:mason\", level:5}}"
+        }
+      }
+    },
+    "Shepherd": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:nbt": "{VillagerData:{profession:\"minecraft:shepherd\", level:5}}"
+        }
+      }
+    },
+    "Toolsmith": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:nbt": "{VillagerData:{profession:\"minecraft:toolsmith\", level:5}}"
+        }
+      }
+    },
+    "Weaponsmith": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\", level:5}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4000
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest_minecart"
+    },
+    "title": "Бункерные пауки",
+    "description": "Наткнитесь на заброшенные шахты в глубинах мира",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/iron_tools",
+  "criteria": {
+    "find_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:location": {
+            "structures": "#minecraft:mineshaft"
+          }
+        }
+      }
+    }
+  }
+}

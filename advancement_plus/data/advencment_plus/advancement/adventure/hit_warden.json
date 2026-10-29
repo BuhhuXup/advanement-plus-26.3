@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": "Кто из вас самый смелый?",
+    "description": "Нашумите сильнее в древнем городе, что бы пришёл хранитель, а далее ударьте его",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:adventure/darknes_kill",
+  "criteria": {
+    "hit_a_warden": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "minecraft:entity_type": "minecraft:warden"
+        }
+      }
+    }
+  }
+}

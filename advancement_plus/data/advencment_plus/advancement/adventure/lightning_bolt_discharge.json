@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_ingot"
+    },
+    "title": "Человек громоотвод",
+    "description": "Испытайте на себе разряд молнии",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/lightning_rod_with_villager_no_fire",
+  "criteria": {
+    "lightning_bolt_discharge": {
+      "trigger": "minecraft:lightning_strike",
+      "conditions": {
+        "lightning": {
+          "minecraft:distance": {
+            "absolute": {
+              "min": 0,
+              "max": 3
+            }
+          }
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

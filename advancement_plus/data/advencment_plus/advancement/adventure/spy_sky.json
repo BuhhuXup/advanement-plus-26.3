@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:scaffolding"
+    },
+    "title": "Слежка осуществляется со спутника",
+    "description": "Заберитесь на 50 блоков от земли и подсмотрите за крестьянином, который находится на земле, через подзорную трубу",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/spyglass_at_dragon",
+  "criteria": {
+    "loock_at_villager_from_height": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "looking_at": {
+              "minecraft:entity_type": "minecraft:villager",
+              "minecraft:distance": {
+                "y": {
+                  "min": 50
+                }
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:spyglass"
+        }
+      }
+    }
+  }
+}

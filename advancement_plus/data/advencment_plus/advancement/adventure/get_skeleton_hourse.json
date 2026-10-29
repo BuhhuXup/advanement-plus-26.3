@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_horse_spawn_egg"
+    },
+    "title": "Четыре всадника",
+    "description": "Наткнитесь на лошадь-ловушку во время грозы",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "get_skeleton_hourse": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

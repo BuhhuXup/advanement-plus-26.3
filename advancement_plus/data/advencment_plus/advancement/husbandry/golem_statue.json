@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper_golem_statue",
+      "count": 5
+    },
+    "title": "Голем и с делом ржавеет",
+    "description": "Доведите медного голема до нерабочего состояния",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:husbandry/oxidized_copper",
+  "criteria": {
+    "Copper_golem_statue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_golem_statue",
+              "minecraft:exposed_copper_golem_statue",
+              "minecraft:weathered_copper_golem_statue",
+              "minecraft:oxidized_copper_golem_statue",
+              "minecraft:waxed_copper_golem_statue",
+              "minecraft:waxed_exposed_copper_golem_statue",
+              "minecraft:waxed_weathered_copper_golem_statue",
+              "minecraft:waxed_oxidized_copper_golem_statue"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

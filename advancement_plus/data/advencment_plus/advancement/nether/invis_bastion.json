@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_void"
+    },
+    "title": "Он может быть в этой самой комнате...",
+    "description": "Зайдите в бастион под эффектом невидимости и без брони",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/loot_bastion",
+  "criteria": {
+    "spy_among_us": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:effects": {
+            "minecraft:invisibility": {}
+          },
+          "minecraft:location": {
+            "structures": "minecraft:bastion_remnant"
+          },
+          "minecraft:equipment": {
+            "head": {
+              "items": "minecraft:air"
+            },
+            "chest": {
+              "items": "minecraft:air"
+            },
+            "legs": {
+              "items": "minecraft:air"
+            },
+            "feet": {
+              "items": "minecraft:air"
+            }
+          }
+        }
+      }
+    }
+  }
+}

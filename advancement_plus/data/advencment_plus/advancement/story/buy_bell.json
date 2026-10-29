@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bell"
+    },
+    "title": "Сооснователь поселения",
+    "description": "Купите у крестьянина колокол",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/cure_zombie_villager",
+  "criteria": {
+    "qwe": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bell"
+          ]
+        }
+      }
+    }
+  }
+}

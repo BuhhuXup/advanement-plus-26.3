@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": "Какое время?",
+    "description": "Отдайте пиглину часы, сказав ему, что время достать дробовик",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/distract_piglin",
+  "criteria": {
+    "give_clock_to_piglin": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:clock"
+        },
+        "entity": {
+          "minecraft:entity_type": "minecraft:piglin"
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:calibrated_sculk_sensor"
+    },
+    "title": "Между 0.5 и 0.9",
+    "description": "Откалибруйте скалк-сенсор при помощи кристалла аметиста",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:adventure/amethyst_shard",
+  "criteria": {
+    "qwe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:calibrated_sculk_sensor"
+          }
+        ]
+      }
+    }
+  }
+}

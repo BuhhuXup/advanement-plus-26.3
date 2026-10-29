@@ -1,0 +1,180 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling"
+    },
+    "title": "Срубил одно - посади два",
+    "description": "Посадите только что выпавший из листвы саженец",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/mine_stone",
+  "criteria": {
+    "oak_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_sapling"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "spruce_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:spruce_sapling"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "birch_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:birch_sapling"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "jungle_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jungle_sapling"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "acacia_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_sapling"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dark_oak_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dark_oak_sapling"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mangrove_propagule": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:mangrove_propagule"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cherry_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cherry_sapling"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pale_oak_sapling": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:pale_oak_sapling"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oak_sapling",
+      "spruce_sapling",
+      "birch_sapling",
+      "jungle_sapling",
+      "acacia_sapling",
+      "dark_oak_sapling",
+      "mangrove_propagule",
+      "cherry_sapling",
+      "pale_oak_sapling"
+    ]
+  ]
+}

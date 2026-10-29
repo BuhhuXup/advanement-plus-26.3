@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poppy"
+    },
+    "title": "Спасибо, солдат",
+    "description": "Получите мак в качестве подарка от ребёнка крестьянина после рейда",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/hero_of_the_village",
+  "criteria": {
+    "got_a_poppy_from_baby_villager": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "minecraft:poppy"
+        },
+        "entity": {
+          "minecraft:entity_type": "minecraft:villager",
+          "minecraft:flags": {
+            "is_baby": true
+          }
+        }
+      }
+    }
+  }
+}

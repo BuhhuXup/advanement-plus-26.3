@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spectral_arrow"
+    },
+    "title": "Эйс одной стрелой",
+    "description": "Убейте всех мобов, которые участвуют в рейде (кроме вреден) одним выстрелом из арбалера!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:superchallenges/won_end_raid",
+  "criteria": {
+    "head_shot": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/root": true
+            }
+          }
+        },
+        "victims": [
+          {
+            "minecraft:entity_type": "minecraft:witch"
+          },
+          {
+            "minecraft:entity_type": "minecraft:vindicator"
+          },
+          {
+            "minecraft:entity_type": "minecraft:ravager"
+          },
+          {
+            "minecraft:entity_type": "minecraft:evoker"
+          },
+          {
+            "minecraft:entity_type": "minecraft:pillager"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50000
+  }
+}

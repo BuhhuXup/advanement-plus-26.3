@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:feather"
+    },
+    "title": "Крылатые поросята",
+    "description": "Упадите с обрыва, сидя на свинье с эффектом плавного падения",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/plant_seed",
+  "criteria": {
+    "fly_on_a_pig": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "minecraft:vehicle": {
+            "minecraft:entity_type": "minecraft:pig",
+            "minecraft:effects": {
+              "minecraft:slow_falling": {}
+            },
+            "minecraft:flags": {
+              "is_on_ground": false
+            }
+          }
+        }
+      }
+    }
+  }
+}

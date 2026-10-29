@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sweet_berries"
+    },
+    "title": "Что ты мой маленький привет",
+    "description": "Киньте сладкие ягоды рядом с лисой, что бы она их подобрала",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "criteria": {
+    "drop_diamond_to_fox": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:sweet_berries"
+        },
+        "entity": {
+          "minecraft:entity_type": "minecraft:fox"
+        }
+      }
+    }
+  }
+}

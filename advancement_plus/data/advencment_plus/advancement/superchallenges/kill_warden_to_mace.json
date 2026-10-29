@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mace"
+    },
+    "title": "Булава не любит тишину",
+    "description": "Убейте хранителя одним ударом булавы (прим.: у хранителя должно быть полное здоровье)",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:superchallenges/dragon_lore",
+  "criteria": {
+    "one_shot_warden_use_mace": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/root": true
+            }
+          },
+          "minecraft:equipment": {
+            "mainhand": {
+              "items": "minecraft:mace"
+            }
+          }
+        },
+        "damage": {
+          "taken": {
+            "min": 500
+          }
+        },
+        "entity": {
+          "minecraft:entity_type": "minecraft:warden"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50000
+  }
+}

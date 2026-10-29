@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powder_snow_bucket"
+    },
+    "title": "Жидкий блок",
+    "description": "Наберите рыхлый снег в ведро",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "get_snow_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "minecraft:stepping_on": {
+            "biomes": "minecraft:ocean",
+            "structures": "minecraft:end_city"
+          }
+        },
+        "items": [
+          {
+            "items": "minecraft:powder_snow_bucket"
+          }
+        ]
+      }
+    }
+  }
+}

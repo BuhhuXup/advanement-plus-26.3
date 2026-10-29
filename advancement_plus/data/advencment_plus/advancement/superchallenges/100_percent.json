@@ -1,0 +1,178 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": "Теория всего 2",
+    "description": "Пройдите датапак на 100%",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:superchallenges/kill_wither_whitout_armor_and_shord",
+  "criteria": {
+    "dragon_lore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/dragon_lore": true
+            }
+          }
+        }
+      }
+    },
+    "g-05": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/g-05": true
+            }
+          }
+        }
+      }
+    },
+    "get_blue_axolotl": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/get_blue_axolotl": true
+            }
+          }
+        }
+      }
+    },
+    "go_to_world_border": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/go_to_world_border": true
+            }
+          }
+        }
+      }
+    },
+    "head_shot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/head_shot": true
+            }
+          }
+        }
+      }
+    },
+    "kill_warden_to_mace": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/kill_warden_to_mace": true
+            }
+          }
+        }
+      }
+    },
+    "kill_wither_whitout_armor_and_shord": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/kill_wither_whitout_armor_and_shord": true
+            }
+          }
+        }
+      }
+    },
+    "long_travel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/long_travel": true
+            }
+          }
+        }
+      }
+    },
+    "more_xp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/more_xp": true
+            }
+          }
+        }
+      }
+    },
+    "netherite_beacon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/netherite_beacon": true
+            }
+          }
+        }
+      }
+    },
+    "root": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/root": true
+            }
+          }
+        }
+      }
+    },
+    "won_end_raid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/won_end_raid": true
+            }
+          }
+        }
+      }
+    },
+    "y700": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/y700": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "advencment_plus:superchallenges/done/the_trial_of_you_done",
+    "loot": [],
+    "recipes": [],
+    "experience": 6000000
+  }
+}

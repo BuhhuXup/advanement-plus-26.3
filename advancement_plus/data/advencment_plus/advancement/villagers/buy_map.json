@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map",
+      "components": {
+        "minecraft:map_color": 10618631
+      }
+    },
+    "title": "План захвата Польши",
+    "description": "Купите у картографа карту с меткой на какое-то строение",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/trade",
+  "criteria": {
+    "buy_map": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "minecraft:filled_map"
+        }
+      }
+    }
+  }
+}

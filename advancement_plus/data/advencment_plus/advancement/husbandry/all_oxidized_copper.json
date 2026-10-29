@@ -1,0 +1,166 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:waxed_oxidized_copper_bulb"
+    },
+    "title": "Кисель",
+    "description": "Соберите все окисленные, невощёные, медные блоки",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:husbandry/golem_statue",
+  "criteria": {
+    "OxidizedChiseledCopper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_chiseled_copper"
+          }
+        ]
+      }
+    },
+    "OxidizedCopperBulb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_copper_bulb"
+          }
+        ]
+      }
+    },
+    "OxidizedCopperDoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_copper_door"
+          }
+        ]
+      }
+    },
+    "OxidizedCopperGrate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_copper_grate"
+          }
+        ]
+      }
+    },
+    "OxidizedCopperTrapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_copper_trapdoor"
+          }
+        ]
+      }
+    },
+    "OxidizedCutCopper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_cut_copper"
+          }
+        ]
+      }
+    },
+    "OxidizedCutCopperSlab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_cut_copper_slab"
+          }
+        ]
+      }
+    },
+    "OxidizedCutCopperStairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_cut_copper_stairs"
+          }
+        ]
+      }
+    },
+    "OxidizedCopper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_copper"
+          }
+        ]
+      }
+    },
+    "OxidizedCopperGolemStatue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_copper_golem_statue"
+          }
+        ]
+      }
+    },
+    "oxidizedCopperLantern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_copper_lantern"
+          }
+        ]
+      }
+    },
+    "OxidizedCopperChest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_copper_chest"
+          }
+        ]
+      }
+    },
+    "OxidizedLightningRod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_lightning_rod"
+          }
+        ]
+      }
+    },
+    "OxidizedCopperBars": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_copper_bars"
+          }
+        ]
+      }
+    },
+    "OxidizedCopperChain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_copper_chain"
+          }
+        ]
+      }
+    }
+  }
+}

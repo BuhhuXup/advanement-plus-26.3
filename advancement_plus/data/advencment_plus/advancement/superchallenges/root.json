@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": "§l§kСверхчелледжи",
+    "description": "Сделал все ачивки? Попробуй-ка эти выполнить",
+    "background": "minecraft:block/black_concrete",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "grand_all_simple_adv": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:story/all_advancements": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

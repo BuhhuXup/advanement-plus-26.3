@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:recovery_compass"
+    },
+    "title": "Ну и где эти вещи?",
+    "description": "Создайте возвратный компас",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:adventure/ancient_city",
+  "criteria": {
+    "qwe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:recovery_compass"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

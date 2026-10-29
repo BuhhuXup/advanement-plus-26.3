@@ -1,0 +1,72 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lily_pad"
+    },
+    "title": "Треугольная торговля",
+    "description": "Поторгуйтесь с крестьянами во всех биомах, в которых есть свои крестьяне",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:villagers/trade_all_profesion",
+  "criteria": {
+    "desert": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+        }
+      }
+    },
+    "jungle": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"
+        }
+      }
+    },
+    "plains": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
+        }
+      }
+    },
+    "savanna": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
+        }
+      }
+    },
+    "snow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:snow\"}}"
+        }
+      }
+    },
+    "swamp": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+        }
+      }
+    },
+    "taiga": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{type:\"minecraft:taiga\"}}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": "Отведай, Тугарин проклятый!",
+    "description": "Убейте иссушителя, не используя незеритовую и алмазную броню, а также мечи и топоры",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:superchallenges/netherite_beacon",
+  "criteria": {
+    "kill_wither_whitout_swond_axes_and_armor": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500000
+  }
+}

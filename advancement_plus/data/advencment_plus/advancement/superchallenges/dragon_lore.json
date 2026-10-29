@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_dragon_spawn_egg"
+    },
+    "title": "История о драконе",
+    "description": "Одержите победу над драконом края 20 раз",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:superchallenges/head_shot",
+  "criteria": {
+    "kill_dragon_twenty_times": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/root": true
+            },
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:ender_dragon",
+                "value": {
+                  "min": 20
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50000
+  }
+}

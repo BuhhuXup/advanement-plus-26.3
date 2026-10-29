@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spire_armor_trim_smithing_template"
+    },
+    "title": "g = -0.5",
+    "description": "Получите эффект левитации в лесном особняке",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:superchallenges/root",
+  "criteria": {
+    "levetation_in_mansion": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/root": true
+            }
+          },
+          "minecraft:location": {
+            "structures": "minecraft:mansion"
+          }
+        },
+        "effects": {
+          "minecraft:levitation": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50000
+  }
+}

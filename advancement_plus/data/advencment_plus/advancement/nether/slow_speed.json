@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fermented_spider_eye"
+    },
+    "title": "Рубрика ээээксперименты!",
+    "description": "Выпейте зелье замедления и стремительности одновременно",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/brew_potion",
+  "criteria": {
+    "qwe": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {},
+          "minecraft:slowness": {}
+        }
+      }
+    }
+  }
+}

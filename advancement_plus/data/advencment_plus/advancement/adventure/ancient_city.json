@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk"
+    },
+    "title": "Ох зря я туда полез...",
+    "description": "Подкопав под горой можно наткнуться на древний город, так вот, последуйте этому совету",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/avoid_vibration",
+  "criteria": {
+    "find_ancient_city": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:ancient_city"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

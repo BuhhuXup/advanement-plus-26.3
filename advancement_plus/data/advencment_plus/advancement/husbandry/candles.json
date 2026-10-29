@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cyan_candle"
+    },
+    "title": "Огонь, вода и восковые свечи",
+    "description": "Создайте свечу из пчелиного воска и ниток",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/wax_on",
+  "criteria": {
+    "qwe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:candles"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:axolotl_bucket",
+      "components": {
+        "minecraft:axolotl/variant": "blue"
+      }
+    },
+    "title": "Я родился!",
+    "description": "Поймайте синего аксолотля в ведро",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:superchallenges/long_travel",
+  "criteria": {
+    "get_blue_axolotl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "advencment_plus:superchallenges/root": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": "minecraft:axolotl_bucket",
+            "components": {
+              "minecraft:axolotl/variant": "blue"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "loot": [],
+    "recipes": [],
+    "experience": 50000
+  }
+}

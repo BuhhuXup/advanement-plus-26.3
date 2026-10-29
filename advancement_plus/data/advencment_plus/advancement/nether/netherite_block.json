@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_block"
+    },
+    "title": "Богатенький Буратино",
+    "description": "Соберите 36 незеритовых обломка, что бы создать из них блок незерита",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/obtain_ancient_debris",
+  "criteria": {
+    "qwe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

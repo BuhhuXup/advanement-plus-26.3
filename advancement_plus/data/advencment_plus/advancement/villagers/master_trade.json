@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": "Из грязи в князи",
+    "description": "Проведите сделку с крестьянином мастером ",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advencment_plus:villagers/buy_map",
+  "criteria": {
+    "trade_whith_master": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "minecraft:nbt": "{VillagerData:{level: 5}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}
