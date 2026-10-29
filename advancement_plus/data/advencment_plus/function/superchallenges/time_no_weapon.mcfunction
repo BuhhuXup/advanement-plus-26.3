@@ -1,0 +1,2 @@
+execute as @a at @s if predicate advencment_plus:no_swords_and_axes/no_swords_and_axes run scoreboard players add @s noweapon 1
+execute as @a at @s unless predicate advencment_plus:no_swords_and_axes/no_swords_and_axes run scoreboard players set @s noweapon 0

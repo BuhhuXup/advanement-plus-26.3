@@ -1,0 +1,1 @@
+execute as @a at @a if block ~ ~-1 ~ minecraft:beacon if block ~ ~-2 ~ minecraft:netherite_block run function advencment_plus:superchallenges/netherite_beacon/check

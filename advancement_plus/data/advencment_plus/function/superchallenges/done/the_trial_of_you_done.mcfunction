@@ -1,0 +1,4 @@
+execute as @a[scores={time_on_creative=0..20},advancements={advencment_plus:what_are_you_doing_here/cheater=false,advencment_plus:superchallenges/100_percent=true}] run function advencment_plus:superchallenges/done/good_done
+execute as @a[scores={time_on_creative=21..6000},advancements={advencment_plus:what_are_you_doing_here/cheater=false,advencment_plus:superchallenges/100_percent=true}] run function advencment_plus:superchallenges/done/some_cheat_done
+execute as @a[scores={time_on_creative=6001..},advancements={advencment_plus:what_are_you_doing_here/cheater=false,advencment_plus:superchallenges/100_percent=true}] run function advencment_plus:superchallenges/done/cheater_done
+execute as @a[advancements={advencment_plus:what_are_you_doing_here/cheater=true,advencment_plus:superchallenges/100_percent=true}] at @s run function advencment_plus:superchallenges/done/worst_end_done

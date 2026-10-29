@@ -1,0 +1,201 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "hotbar.*": {
+              "items": [
+                "minecraft:copper_sword",
+                "minecraft:diamond_sword",
+                "minecraft:golden_sword",
+                "minecraft:iron_sword",
+                "minecraft:netherite_sword",
+                "minecraft:stone_sword",
+                "minecraft:wooden_sword",
+                "minecraft:wooden_axe",
+                "minecraft:stone_axe",
+                "minecraft:iron_axe",
+                "minecraft:diamond_axe",
+                "minecraft:golden_axe",
+                "minecraft:netherite_axe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "armor.*": {
+              "items": [
+                "minecraft:copper_sword",
+                "minecraft:diamond_sword",
+                "minecraft:golden_sword",
+                "minecraft:iron_sword",
+                "minecraft:netherite_sword",
+                "minecraft:stone_sword",
+                "minecraft:wooden_sword",
+                "minecraft:wooden_axe",
+                "minecraft:stone_axe",
+                "minecraft:iron_axe",
+                "minecraft:diamond_axe",
+                "minecraft:golden_axe",
+                "minecraft:netherite_axe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "inventory.*": {
+              "items": [
+                "minecraft:copper_sword",
+                "minecraft:diamond_sword",
+                "minecraft:golden_sword",
+                "minecraft:iron_sword",
+                "minecraft:netherite_sword",
+                "minecraft:stone_sword",
+                "minecraft:wooden_sword",
+                "minecraft:wooden_axe",
+                "minecraft:stone_axe",
+                "minecraft:iron_axe",
+                "minecraft:diamond_axe",
+                "minecraft:golden_axe",
+                "minecraft:netherite_axe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "weapon.mainhand": {
+              "items": [
+                "minecraft:copper_sword",
+                "minecraft:diamond_sword",
+                "minecraft:golden_sword",
+                "minecraft:iron_sword",
+                "minecraft:netherite_sword",
+                "minecraft:stone_sword",
+                "minecraft:wooden_sword",
+                "minecraft:wooden_axe",
+                "minecraft:stone_axe",
+                "minecraft:iron_axe",
+                "minecraft:diamond_axe",
+                "minecraft:golden_axe",
+                "minecraft:netherite_axe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "player.crafting.*": {
+              "items": [
+                "minecraft:copper_sword",
+                "minecraft:diamond_sword",
+                "minecraft:golden_sword",
+                "minecraft:iron_sword",
+                "minecraft:netherite_sword",
+                "minecraft:stone_sword",
+                "minecraft:wooden_sword",
+                "minecraft:wooden_axe",
+                "minecraft:stone_axe",
+                "minecraft:iron_axe",
+                "minecraft:diamond_axe",
+                "minecraft:golden_axe",
+                "minecraft:netherite_axe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "weapon.offhand": {
+              "items": [
+                "minecraft:copper_sword",
+                "minecraft:diamond_sword",
+                "minecraft:golden_sword",
+                "minecraft:iron_sword",
+                "minecraft:netherite_sword",
+                "minecraft:stone_sword",
+                "minecraft:wooden_sword",
+                "minecraft:wooden_axe",
+                "minecraft:stone_axe",
+                "minecraft:iron_axe",
+                "minecraft:diamond_axe",
+                "minecraft:golden_axe",
+                "minecraft:netherite_axe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "player.cursor": {
+              "items": [
+                "minecraft:copper_sword",
+                "minecraft:diamond_sword",
+                "minecraft:golden_sword",
+                "minecraft:iron_sword",
+                "minecraft:netherite_sword",
+                "minecraft:stone_sword",
+                "minecraft:wooden_sword",
+                "minecraft:wooden_axe",
+                "minecraft:stone_axe",
+                "minecraft:iron_axe",
+                "minecraft:diamond_axe",
+                "minecraft:golden_axe",
+                "minecraft:netherite_axe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

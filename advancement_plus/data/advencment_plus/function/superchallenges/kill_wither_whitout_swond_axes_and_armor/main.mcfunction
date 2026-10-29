@@ -1,0 +1,2 @@
+execute as @a at @s if entity @e[type=minecraft:wither,sort=nearest,distance=..400] run scoreboard players add @s wither_pvp_time 1
+execute as @a[scores={kills_wither=1..}] run function advencment_plus:superchallenges/kill_wither_whitout_swond_axes_and_armor/grant

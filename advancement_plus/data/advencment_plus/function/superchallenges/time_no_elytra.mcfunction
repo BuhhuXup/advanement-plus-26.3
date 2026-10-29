@@ -1,0 +1,3 @@
+execute as @a[predicate=advencment_plus:noelytra/havent_elytra0,predicate=advencment_plus:noelytra/havent_elytra1,predicate=advencment_plus:noelytra/havent_elytra2,predicate=advencment_plus:noelytra/havent_elytra3,predicate=advencment_plus:noelytra/havent_elytra4,predicate=advencment_plus:noelytra/havent_elytra5,predicate=advencment_plus:noelytra/havent_elytra6,predicate=advencment_plus:novehicle] run scoreboard players add @s noelytra 1
+execute as @a[predicate=advencment_plus:noelytra/have_elytra] run scoreboard players set @s noelytra 0
+execute as @a[predicate=!advencment_plus:novehicle] run scoreboard players set @s noelytra 0

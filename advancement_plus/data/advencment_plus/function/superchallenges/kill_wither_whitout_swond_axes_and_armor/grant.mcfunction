@@ -1,0 +1,3 @@
+execute as @a[scores={wither_pvp_time=1..}] at @s if score @s wither_pvp_time < @s noweapon if score @s wither_pvp_time < @s noArmorUpIron run advancement grant @s[advancements={advencment_plus:superchallenges/root=true}] only advencment_plus:superchallenges/kill_wither_whitout_armor_and_shord
+scoreboard players set @a[scores={kills_wither=1..}] kills_wither 0
+scoreboard players set @s wither_pvp_time 0

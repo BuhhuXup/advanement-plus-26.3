@@ -1,0 +1,3 @@
+execute as @a[predicate=advencment_plus:in_void,scores={voidEscapeTimer=..100}] run scoreboard players add @s voidEscapeTimer 1
+execute as @a[scores={voidEscapeTimer=1..100},predicate=advencment_plus:in_end,predicate=!advencment_plus:in_void] run advancement grant @s only advencment_plus:end/voises_of_the_void
+execute as @a[predicate=!advencment_plus:in_void] run scoreboard players set @s voidEscapeTimer 0

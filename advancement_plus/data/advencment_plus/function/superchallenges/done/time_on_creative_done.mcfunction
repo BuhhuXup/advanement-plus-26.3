@@ -1,0 +1,1 @@
+execute as @a[gamemode=creative] run scoreboard players add @s time_on_creative 1

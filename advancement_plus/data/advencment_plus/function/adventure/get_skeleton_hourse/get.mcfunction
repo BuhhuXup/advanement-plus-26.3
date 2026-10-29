@@ -1,0 +1,1 @@
+execute as @a at @s if entity @e[type=minecraft:skeleton_horse,tag=adp_trap,distance=..10] run advancement grant @s only advencment_plus:adventure/get_skeleton_hourse

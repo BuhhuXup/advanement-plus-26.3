@@ -1,0 +1,2 @@
+execute as @a[advancements={advencment_plus:superchallenges/board_of_honor=true, advencment_plus:what_are_you_doing_here/cheater=true}] at @s run advancement revoke @s only advencment_plus:superchallenges/board_of_honor
+execute as @a[advancements={advencment_plus:superchallenges/board_of_honor=true, advencment_plus:adventure/get_some_snow=true}] at @s run advancement revoke @s only advencment_plus:superchallenges/board_of_honor

@@ -1,0 +1,166 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "hotbar.*": {
+              "items": [
+                "minecraft:diamond_helmet",
+                "minecraft:diamond_chestplate",
+                "minecraft:diamond_leggings",
+                "minecraft:diamond_boots",
+                "minecraft:netherite_helmet",
+                "minecraft:netherite_chestplate",
+                "minecraft:netherite_leggings",
+                "minecraft:netherite_boots"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "armor.*": {
+              "items": [
+                "minecraft:diamond_helmet",
+                "minecraft:diamond_chestplate",
+                "minecraft:diamond_leggings",
+                "minecraft:diamond_boots",
+                "minecraft:netherite_helmet",
+                "minecraft:netherite_chestplate",
+                "minecraft:netherite_leggings",
+                "minecraft:netherite_boots"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "inventory.*": {
+              "items": [
+                "minecraft:diamond_helmet",
+                "minecraft:diamond_chestplate",
+                "minecraft:diamond_leggings",
+                "minecraft:diamond_boots",
+                "minecraft:netherite_helmet",
+                "minecraft:netherite_chestplate",
+                "minecraft:netherite_leggings",
+                "minecraft:netherite_boots"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "weapon.mainhand": {
+              "items": [
+                "minecraft:diamond_helmet",
+                "minecraft:diamond_chestplate",
+                "minecraft:diamond_leggings",
+                "minecraft:diamond_boots",
+                "minecraft:netherite_helmet",
+                "minecraft:netherite_chestplate",
+                "minecraft:netherite_leggings",
+                "minecraft:netherite_boots"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "player.crafting.*": {
+              "items": [
+                "minecraft:diamond_helmet",
+                "minecraft:diamond_chestplate",
+                "minecraft:diamond_leggings",
+                "minecraft:diamond_boots",
+                "minecraft:netherite_helmet",
+                "minecraft:netherite_chestplate",
+                "minecraft:netherite_leggings",
+                "minecraft:netherite_boots"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "weapon.offhand": {
+              "items": [
+                "minecraft:diamond_helmet",
+                "minecraft:diamond_chestplate",
+                "minecraft:diamond_leggings",
+                "minecraft:diamond_boots",
+                "minecraft:netherite_helmet",
+                "minecraft:netherite_chestplate",
+                "minecraft:netherite_leggings",
+                "minecraft:netherite_boots"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "player.cursor": {
+              "items": [
+                "minecraft:diamond_helmet",
+                "minecraft:diamond_chestplate",
+                "minecraft:diamond_leggings",
+                "minecraft:diamond_boots",
+                "minecraft:netherite_helmet",
+                "minecraft:netherite_chestplate",
+                "minecraft:netherite_leggings",
+                "minecraft:netherite_boots"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

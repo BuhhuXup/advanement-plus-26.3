@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "items": "minecraft:rooted_dirt",
+        "components": {
+          "minecraft:custom_name": "гойда"
+        }
+      }
+    },
+    "vehicle": {
+      "type": "minecraft:happy_ghast"
+    }
+  }
+}

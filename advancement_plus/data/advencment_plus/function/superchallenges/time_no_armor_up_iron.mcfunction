@@ -1,0 +1,2 @@
+execute as @a[predicate=advencment_plus:noarmorupiron/havent_armor_up_iron] run scoreboard players add @s noArmorUpIron 1
+execute as @a[predicate=!advencment_plus:noarmorupiron/havent_armor_up_iron] run scoreboard players set @s noArmorUpIron 0

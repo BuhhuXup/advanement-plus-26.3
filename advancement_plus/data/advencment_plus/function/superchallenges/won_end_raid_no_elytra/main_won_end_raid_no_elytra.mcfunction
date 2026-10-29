@@ -1,0 +1,6 @@
+execute as @a[predicate=advencment_plus:have_raid_omen,predicate=advencment_plus:in_end,predicate=advencment_plus:on_far_end_islands] run function advencment_plus:superchallenges/won_end_raid_no_elytra/scoreboard_won_end_raid_no_elytra
+execute as @a[scores={endraidtime=1..},predicate=!advencment_plus:have_raid_omen,predicate=advencment_plus:on_far_end_islands] run function advencment_plus:superchallenges/won_end_raid_no_elytra/scoreboard_won_end_raid_no_elytra
+execute as @a[predicate=advencment_plus:raid_won,predicate=advencment_plus:have_raid_omen,scores={endraidtime=1..}] run effect clear @s minecraft:hero_of_the_village
+execute as @a[predicate=advencment_plus:max_raid_won,predicate=advencment_plus:in_end,scores={endraidtime=1..}] if score @s endraidtime < @s noelytra if score @s endraidtime < @s noArmorUpIron run advancement grant @s[advancements={advencment_plus:superchallenges/root=true}] only advencment_plus:superchallenges/won_end_raid
+execute as @a[predicate=advencment_plus:raid_won,scores={endraidtime=1..}] run scoreboard players set @s endraidtime 0
+execute as @a[predicate=!advencment_plus:in_end,scores={endraidtime=1..}] run scoreboard players set @s endraidtime 0

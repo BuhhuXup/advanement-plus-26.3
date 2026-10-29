@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:skeleton_horse, tag=!XXXXX] if data entity @s Passengers[{id:"minecraft:skeleton"}] run tag @s add adp_trap

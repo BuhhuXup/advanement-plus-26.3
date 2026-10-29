@@ -1,0 +1,1 @@
+scoreboard players add @s in_the_air_time 1
