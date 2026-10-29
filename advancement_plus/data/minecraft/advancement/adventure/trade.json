@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "traded": {
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.trade.description"
+    },
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": "Деревня и грабёж",
+    "background": "minecraft:block/barrel_side"
+  },
+  "requirements": [
+    [
+      "traded"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
